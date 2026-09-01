@@ -53,3 +53,8 @@ function add3G(){
     const newScore = currentScore + 3;
     setGuestScore(newScore);
 }
+
+function newGame() {
+    setHomeScore(0);
+    setGuestScore(0);
+}
